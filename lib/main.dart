@@ -12,8 +12,6 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -27,7 +25,47 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                     fontFamily: "Pacifico"),
-              )
+              ),
+              Text(
+                "MOBILE APP DEVELOPER",
+                style: TextStyle(
+                  color: Colors.teal.shade100,
+                  fontSize: 20.0,
+                  fontFamily: "SourceSans",
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                padding: EdgeInsets.all(
+                  10.0,
+                ),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      "+234 808 340 9309",
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        fontFamily: "SourceSans",
+                        color: Colors.teal.shade900,
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Si
             ],
           ),
         ),
