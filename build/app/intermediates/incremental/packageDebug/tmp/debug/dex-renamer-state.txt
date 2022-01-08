@@ -1,4 +1,4 @@
-#Fri Jan 07 19:45:56 WAT 2022
+#Sat Jan 08 03:06:28 WAT 2022
 base.0=/home/chinedu/Desktop/chinedu/flutter_apps/mi_card_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
